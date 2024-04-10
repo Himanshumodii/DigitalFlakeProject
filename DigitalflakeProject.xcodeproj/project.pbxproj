@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF6725062BC3F9D7005A18D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6725052BC3F9D7005A18D5 /* LoginViewController.swift */; };
+		AF6725082BC40684005A18D5 /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6725072BC40684005A18D5 /* HomeScreenController.swift */; };
+		AF67250A2BC4143A005A18D5 /* DeskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6725092BC4143A005A18D5 /* DeskViewController.swift */; };
+		AF67250C2BC41785005A18D5 /* bookHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67250B2BC41785005A18D5 /* bookHistoryController.swift */; };
+		AF7B7D872BC3DEF800A7B12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B7D862BC3DEF800A7B12E /* AppDelegate.swift */; };
+		AF7B7D892BC3DEF800A7B12E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B7D882BC3DEF800A7B12E /* SceneDelegate.swift */; };
+		AF7B7D8B2BC3DEF800A7B12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B7D8A2BC3DEF800A7B12E /* ViewController.swift */; };
+		AF7B7D8E2BC3DEF800A7B12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7B7D8C2BC3DEF800A7B12E /* Main.storyboard */; };
+		AF7B7D912BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF7B7D8F2BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodeld */; };
+		AF7B7D932BC3DEFF00A7B12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7B7D922BC3DEFF00A7B12E /* Assets.xcassets */; };
+		AF7B7D962BC3DEFF00A7B12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7B7D942BC3DEFF00A7B12E /* LaunchScreen.storyboard */; };
+		AF8239CF2BC56796004AF8CD /* AvailableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8239CE2BC56796004AF8CD /* AvailableViewController.swift */; };
+		B80E27C82BC5BE270098D065 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80E27C62BC5BE260098D065 /* BookTableViewCell.swift */; };
+		B80E27C92BC5BE270098D065 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80E27C72BC5BE270098D065 /* BookTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF6725052BC3F9D7005A18D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF6725072BC40684005A18D5 /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
+		AF6725092BC4143A005A18D5 /* DeskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskViewController.swift; sourceTree = "<group>"; };
+		AF67250B2BC41785005A18D5 /* bookHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookHistoryController.swift; sourceTree = "<group>"; };
+		AF7B7D832BC3DEF800A7B12E /* DigitalflakeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalflakeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7B7D862BC3DEF800A7B12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7B7D882BC3DEF800A7B12E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF7B7D8A2BC3DEF800A7B12E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF7B7D8D2BC3DEF800A7B12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF7B7D902BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigitalflakeProject.xcdatamodel; sourceTree = "<group>"; };
+		AF7B7D922BC3DEFF00A7B12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7B7D952BC3DEFF00A7B12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7B7D972BC3DEFF00A7B12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8239CE2BC56796004AF8CD /* AvailableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableViewController.swift; sourceTree = "<group>"; };
+		B80E27C62BC5BE260098D065 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		B80E27C72BC5BE270098D065 /* BookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7B7D802BC3DEF800A7B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF7B7D7A2BC3DEF800A7B12E = {
+			isa = PBXGroup;
+			children = (
+				AF7B7D852BC3DEF800A7B12E /* DigitalflakeProject */,
+				AF7B7D842BC3DEF800A7B12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7B7D842BC3DEF800A7B12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B7D832BC3DEF800A7B12E /* DigitalflakeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7B7D852BC3DEF800A7B12E /* DigitalflakeProject */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B7D862BC3DEF800A7B12E /* AppDelegate.swift */,
+				AF7B7D882BC3DEF800A7B12E /* SceneDelegate.swift */,
+				AF7B7D8A2BC3DEF800A7B12E /* ViewController.swift */,
+				AF7B7D8C2BC3DEF800A7B12E /* Main.storyboard */,
+				AF7B7D922BC3DEFF00A7B12E /* Assets.xcassets */,
+				AF7B7D942BC3DEFF00A7B12E /* LaunchScreen.storyboard */,
+				AF7B7D972BC3DEFF00A7B12E /* Info.plist */,
+				AF7B7D8F2BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodeld */,
+				AF6725052BC3F9D7005A18D5 /* LoginViewController.swift */,
+				AF6725072BC40684005A18D5 /* HomeScreenController.swift */,
+				AF6725092BC4143A005A18D5 /* DeskViewController.swift */,
+				AF67250B2BC41785005A18D5 /* bookHistoryController.swift */,
+				AF8239CE2BC56796004AF8CD /* AvailableViewController.swift */,
+				B80E27C62BC5BE260098D065 /* BookTableViewCell.swift */,
+				B80E27C72BC5BE270098D065 /* BookTableViewCell.xib */,
+			);
+			path = DigitalflakeProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7B7D822BC3DEF800A7B12E /* DigitalflakeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7B7D9A2BC3DEFF00A7B12E /* Build configuration list for PBXNativeTarget "DigitalflakeProject" */;
+			buildPhases = (
+				AF7B7D7F2BC3DEF800A7B12E /* Sources */,
+				AF7B7D802BC3DEF800A7B12E /* Frameworks */,
+				AF7B7D812BC3DEF800A7B12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalflakeProject;
+			productName = DigitalflakeProject;
+			productReference = AF7B7D832BC3DEF800A7B12E /* DigitalflakeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7B7D7B2BC3DEF800A7B12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AF7B7D822BC3DEF800A7B12E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = AF7B7D7E2BC3DEF800A7B12E /* Build configuration list for PBXProject "DigitalflakeProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7B7D7A2BC3DEF800A7B12E;
+			productRefGroup = AF7B7D842BC3DEF800A7B12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7B7D822BC3DEF800A7B12E /* DigitalflakeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7B7D812BC3DEF800A7B12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80E27C92BC5BE270098D065 /* BookTableViewCell.xib in Resources */,
+				AF7B7D962BC3DEFF00A7B12E /* LaunchScreen.storyboard in Resources */,
+				AF7B7D932BC3DEFF00A7B12E /* Assets.xcassets in Resources */,
+				AF7B7D8E2BC3DEF800A7B12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7B7D7F2BC3DEF800A7B12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF67250A2BC4143A005A18D5 /* DeskViewController.swift in Sources */,
+				AF7B7D912BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodeld in Sources */,
+				AF8239CF2BC56796004AF8CD /* AvailableViewController.swift in Sources */,
+				AF7B7D8B2BC3DEF800A7B12E /* ViewController.swift in Sources */,
+				AF6725082BC40684005A18D5 /* HomeScreenController.swift in Sources */,
+				AF7B7D872BC3DEF800A7B12E /* AppDelegate.swift in Sources */,
+				AF6725062BC3F9D7005A18D5 /* LoginViewController.swift in Sources */,
+				AF7B7D892BC3DEF800A7B12E /* SceneDelegate.swift in Sources */,
+				B80E27C82BC5BE270098D065 /* BookTableViewCell.swift in Sources */,
+				AF67250C2BC41785005A18D5 /* bookHistoryController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF7B7D8C2BC3DEF800A7B12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7B7D8D2BC3DEF800A7B12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF7B7D942BC3DEFF00A7B12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7B7D952BC3DEFF00A7B12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7B7D982BC3DEFF00A7B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF7B7D992BC3DEFF00A7B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7B7D9B2BC3DEFF00A7B12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalflakeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digitalflake.DigitalflakeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7B7D9C2BC3DEFF00A7B12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DigitalflakeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digitalflake.DigitalflakeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7B7D7E2BC3DEF800A7B12E /* Build configuration list for PBXProject "DigitalflakeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7B7D982BC3DEFF00A7B12E /* Debug */,
+				AF7B7D992BC3DEFF00A7B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7B7D9A2BC3DEFF00A7B12E /* Build configuration list for PBXNativeTarget "DigitalflakeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7B7D9B2BC3DEFF00A7B12E /* Debug */,
+				AF7B7D9C2BC3DEFF00A7B12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF7B7D8F2BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF7B7D902BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodel */,
+			);
+			currentVersion = AF7B7D902BC3DEF800A7B12E /* DigitalflakeProject.xcdatamodel */;
+			path = DigitalflakeProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF7B7D7B2BC3DEF800A7B12E /* Project object */;
+}
